@@ -1,0 +1,15 @@
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DienThoai.exe.config
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DienThoai.exe
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.Form1.resources
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.Properties.Resources.resources
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.csproj.GenerateResource.Cache
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.exe
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\obj\x86\Debug\DienThoai.csprojResolveAssemblyReference.cache
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\BUSDienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DTODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DAODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\BUSDienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DTODienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\DienThoai\bin\Debug\DAODienThoai.pdb

@@ -1,0 +1,9 @@
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\BUSDienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\BUSDienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\obj\Debug\BUSDienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\obj\Debug\BUSDienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\DAODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\DTODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\DAODienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\bin\Debug\DTODienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\BUSDienThoai\obj\Debug\BUSDienThoai.csprojResolveAssemblyReference.cache

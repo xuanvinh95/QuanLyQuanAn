@@ -1,0 +1,4 @@
+C:\Users\xuanvinh1995\Desktop\DienThoai\DTODienThoai\bin\Debug\DTODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\DTODienThoai\bin\Debug\DTODienThoai.pdb
+C:\Users\xuanvinh1995\Desktop\DienThoai\DTODienThoai\obj\Debug\DTODienThoai.dll
+C:\Users\xuanvinh1995\Desktop\DienThoai\DTODienThoai\obj\Debug\DTODienThoai.pdb

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2F2C9EC-557F-44E3-870F-7FEEF02B3603}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLMobileStore</RootNamespace>
+    <AssemblyName>QLMobileStore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Paomedia-Small-N-Flat-Shop.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DienThoai.cs" />
+    <Compile Include="dsSanPham.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSanPham.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoaiSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoaiSanPham.Designer.cs">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLMobileStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLMobileStore.Designer.cs">
+      <DependentUpon>frmQLMobileStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrptSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrptSanPham.Designer.cs">
+      <DependentUpon>frmrptSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSanPham.Designer.cs">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiDienThoai.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="frmLoaiSanPham.resx">
+      <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLMobileStore.resx">
+      <DependentUpon>frmQLMobileStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrptSanPham.resx">
+      <DependentUpon>frmrptSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSanPham.resx">
+      <DependentUpon>frmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rptSanPham.rdlc" />
+    <None Include="dsSanPham.xsc">
+      <DependentUpon>dsSanPham.xsd</DependentUpon>
+    </None>
+    <None Include="dsSanPham.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSanPham.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsSanPham.xss">
+      <DependentUpon>dsSanPham.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Paomedia-Small-N-Flat-Shop.ico" />
+    <None Include="Resources\add2.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\system-software-update.png" />
+    <None Include="Resources\in.png" />
+    <None Include="Resources\exit.png" />
+    <Content Include="upload\apple-iphone-5s-16gb-gold-ban-quoc-te-anh-2.jpg" />
+    <Content Include="upload\apple-iphone-6s-16gb-gold-ban-quoc-te-anh-2.jpg" />
+    <Content Include="upload\apple-iphone-se-16gb-gold-ban-quoc-te.jpg" />
+    <Content Include="upload\Chrysanthemum.jpg" />
+    <Content Include="upload\Desert.jpg" />
+    <Content Include="upload\galaxynote3.jpg" />
+    <Content Include="upload\galaxys3.jpg" />
+    <Content Include="upload\Hydrangeas.jpg" />
+    <Content Include="upload\iphone6.jpg" />
+    <Content Include="upload\iphone6plus.jpg" />
+    <Content Include="upload\Koala.jpg" />
+    <Content Include="upload\Lighthouse.jpg" />
+    <Content Include="upload\logo.png" />
+    <Content Include="upload\lu530.jpg" />
+    <Content Include="upload\microsoft-lumia-950-400x460.png" />
+    <Content Include="upload\MobileStore_banner.png" />
+    <Content Include="upload\no1080.jpg" />
+    <Content Include="upload\no1202.jpg" />
+    <Content Include="upload\nokia-105-png.png" />
+    <Content Include="upload\nokia-6300-silver.jpg" />
+    <Content Include="upload\Penguins.jpg" />
+    <Content Include="upload\samsung-galaxy-a8-1-400x533.png" />
+    <Content Include="upload\samsung-galaxy-grand-prime-g531-400x460.png" />
+    <Content Include="upload\samsung-galaxy-j7-sm-j700f-16gb-gold.png" />
+    <Content Include="upload\samsung-galaxy-s5-galaxy-s-v-sm-g900f-32gb-white-anh-3.jpg" />
+    <Content Include="upload\samsung-galaxy-s7-edge-1-400x460.png" />
+    <Content Include="upload\Tulips.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

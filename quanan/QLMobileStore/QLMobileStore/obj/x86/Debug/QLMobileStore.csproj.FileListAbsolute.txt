@@ -1,0 +1,14 @@
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.frmQLMobileStore.resources
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.Properties.Resources.resources
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.csproj.GenerateResource.Cache
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\bin\Debug\QLMobileStore.exe
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\bin\Debug\QLMobileStore.pdb
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.exe
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.pdb
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.csprojResolveAssemblyReference.cache
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.frmSanPham.resources
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.frmLoaiSanPham.resources
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.frmrptSanPham.resources
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\RdlCompile.cache
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\RdlCompile.compiled
+C:\Users\quang\Desktop\LTCSDL\QLMobileStore\QLMobileStore\obj\x86\Debug\QLMobileStore.frmUser.resources
